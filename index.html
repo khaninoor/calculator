@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Calculater</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap">
+    <title>Document</title>
+</head>
+<body>
+      <div class="container">
+        <h1 style="margin-left: 10px;">ADD ANIMAL LEGS</h1></h1>
+        <div class="row">
+            <div class="col-12">
+                <Br>
+                    <Br>
+               <b class="one"> Chickens:</b>
+                <input type="number" name="firstnum" id="inputChicken">
+                <b class="one"> Cows:</b>
+                <input type="number" name="secondnum" id="inputCow">
+                <b class="one"> Pigs:</b>
+                <input type="number" name="thirdnum" id="inputPig">
+                <br>
+                <br>
+                <br>
+                <button type="button" class="two" onclick="findAnimalsLegss();">Submit</button>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+      <div class="row">
+          <div class="col-12-1">
+              <Br>
+                  <Br>
+<p class="three">Total Chickens: <span id="totalChickens" ></span>  Total Legs:  <span id="add1" > </span></p>
+<p class="three">Total Cows: <span id="totalCows"></span>  Total Legs:  <span id="add2"></span></p>
+
+<p class="three">Total Pigs:  <span id="totalPigs"></span>  Total Legs:<span id="add3"></span></p>
+<BR>
+<p class="three">Total Legs: <span id="totalLegs" > </span></p>
+
+       <button type="button" class="two" onclick="return addRow();">Try Another One</button>
+       </div>
+       </div>
+       </div>
+
+
+
+    <script src="script.Js"></script>
+</body>
+</html>
